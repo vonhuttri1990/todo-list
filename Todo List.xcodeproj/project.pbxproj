@@ -21,8 +21,7 @@
 		9059C48E27BB85AA001E4848 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059C48C27BB85AA001E4848 /* CategoryCell.swift */; };
 		9059C48F27BB85AA001E4848 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9059C48D27BB85AA001E4848 /* CategoryCell.xib */; };
 		9059C49327BC9CCE001E4848 /* TodoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9059C49127BC9CCE001E4848 /* TodoCoreData.xcdatamodeld */; };
-		90E5764327C733FA004CF711 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5764127C733FA004CF711 /* Todo+CoreDataClass.swift */; };
-		90E5764427C733FA004CF711 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5764227C733FA004CF711 /* Todo+CoreDataProperties.swift */; };
+		90E5764627C76FF5004CF711 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 90E5764527C76FF5004CF711 /* codemagic.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +41,7 @@
 		9059C48C27BB85AA001E4848 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		9059C48D27BB85AA001E4848 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		9059C49227BC9CCE001E4848 /* Persistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persistence.xcdatamodel; sourceTree = "<group>"; };
-		90E5764127C733FA004CF711 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		90E5764227C733FA004CF711 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		90E5764527C76FF5004CF711 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = codemagic.yaml; path = ../codemagic.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +80,7 @@
 				9036674527B60D5200BE9ED1 /* CustomControl */,
 				9036674427B60D4400BE9ED1 /* Scenes */,
 				9036674127B60D1E00BE9ED1 /* Models */,
+				90E5764527C76FF5004CF711 /* codemagic.yaml */,
 			);
 			path = "Todo List";
 			sourceTree = "<group>";
@@ -186,8 +185,6 @@
 		9059C49027BC9CC2001E4848 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				90E5764127C733FA004CF711 /* Todo+CoreDataClass.swift */,
-				90E5764227C733FA004CF711 /* Todo+CoreDataProperties.swift */,
 				9059C49127BC9CCE001E4848 /* TodoCoreData.xcdatamodeld */,
 			);
 			path = DB;
@@ -254,6 +251,7 @@
 				9059C48F27BB85AA001E4848 /* CategoryCell.xib in Resources */,
 				9036673727B60C6B00BE9ED1 /* LaunchScreen.storyboard in Resources */,
 				9036673427B60C6B00BE9ED1 /* Assets.xcassets in Resources */,
+				90E5764627C76FF5004CF711 /* codemagic.yaml in Resources */,
 				9036673227B60C6A00BE9ED1 /* Main.storyboard in Resources */,
 				9036675227B6115A00BE9ED1 /* TodoCell.xib in Resources */,
 			);
@@ -269,11 +267,9 @@
 				9059C49327BC9CCE001E4848 /* TodoCoreData.xcdatamodeld in Sources */,
 				9036675527B61C8F00BE9ED1 /* AddTodoVC.swift in Sources */,
 				9036675127B6115A00BE9ED1 /* TodoCell.swift in Sources */,
-				90E5764327C733FA004CF711 /* Todo+CoreDataClass.swift in Sources */,
 				9036672B27B60C6A00BE9ED1 /* AppDelegate.swift in Sources */,
 				9059C48E27BB85AA001E4848 /* CategoryCell.swift in Sources */,
 				9059C48A27BB8309001E4848 /* HomeTableVC.swift in Sources */,
-				90E5764427C733FA004CF711 /* Todo+CoreDataProperties.swift in Sources */,
 				9036672D27B60C6A00BE9ED1 /* SceneDelegate.swift in Sources */,
 				9036674327B60D2B00BE9ED1 /* Todo.swift in Sources */,
 				9036674D27B60E6900BE9ED1 /* TodoListVC.swift in Sources */,
